@@ -1,3 +1,13 @@
+# Task
+
+The application should store a github organization's name and any authorization keys required. The one-page application should return time-based statistics on the repositories. For each repository please show: 
+- lines of code added
+- lines of code deleted
+- number of commits
+
+Please also show the grand total of the above for the organization.
+
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
