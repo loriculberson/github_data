@@ -12,10 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('repos');
 });
 //organization's repos
-Route::get('/orgs/:org/repos', ['uses' => 'GithubController@index', 'as' => 'index']);
+Route::get('/orgs/waybetterdev/repos', ['uses' => 'GithubController@index', 'as' => 'index']);
 
 Route::get('/finder', ['uses' => 'GithubController@finder', 'as' => 'finder']);
 

@@ -38,9 +38,16 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title">Repo content</div>
+                  @foreach($repos as $repo)
+                      <a href="orgs/waybetterdev/repos"> Way Better Repos</a>
+                  @endforeach
+    </div>
+
 
             </div>
         </div>
     </body>
 </html>
+
+
